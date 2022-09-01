@@ -10,7 +10,7 @@ public class FirstLetterPrinter {
 	 } 
 	 static String firstLetterPrinter(String str) { 
 	   String result="";
-	   String[] strArray=str.split("");
+	   String[] strArray=str.split(" ");
 	   for(String s:strArray) {
 		   if(s.length() !=0 && Character.isLetter(s.charAt(0)));
 		   {
