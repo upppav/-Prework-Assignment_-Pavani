@@ -10,7 +10,7 @@ public class PatternPrinter {
 		 
 			 for(int i=n;i>=1; i--) {
 				 for(int j=n; j>=1; j--) {
-					 for(int k=1;k>=1;k--)
+					 for(int k=i;k>=1;k--)
 					 {
 						 System.out.println(j + " ");
 					 }
